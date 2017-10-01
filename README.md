@@ -24,16 +24,16 @@ $ cd
 $ wget https://github.com/rabbitmq/rabbitmq-server/releases/download/rabbitmq_v3_6_12/rabbitmq-server-generic-unix-3.6.12.tar.xz
 ```
 
-Fire it up:
+Fire up message queue:
 ```
 $ tar xf rabbitmq-server-generic-unix-3.6.12.tar.xz
 $ cd rabbitmq_server-3.6.12/
-sbin/rabbitmq-server
+$ sbin/rabbitmq-server
 ```
 
 Clone this repo:
 ```
-git clone https://github.com/davebshow/celery_example.git
+$ git clone https://github.com/davebshow/celery_example.git
 ```
 
 Install Celery:
@@ -51,8 +51,8 @@ $ cd celery_example
 Fire up a new terminal and run the example:
 
 ```
-cd celery_example
-python run.py
+$ cd celery_example
+$ python run.py
 ```
 
 
